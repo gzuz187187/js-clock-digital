@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#flex-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 210px;
+}
+
+#date {
+    font-size: 1.2rem;
+}
+
+#time {
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-start; */
+}
+
+#time > div {
+    font-size: 3rem;
+    font-weight: bold;
+}
